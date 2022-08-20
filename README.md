@@ -30,8 +30,8 @@ selct device name and connect in switch mode
 
 click on the gear icon at the top right corner of the screen and change the parameter sent over bluetooth
 
+### Note![edit parameters](https://user-images.githubusercontent.com/65239245/185732046-c35bac68-f0d1-488a-ab60-1e8f48005e2e.jpg)
 
-### Note
 - Always check the datasheet for the required voltage on the rx and tx pin of the bluethoth module in other to avoid frying up the chip 
 
 - If your module makes use of 3.3v for the RS and TX pin, then make use of a voltage divider before powering it up
