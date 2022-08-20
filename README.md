@@ -18,8 +18,7 @@ Open up the app and give all requested permission
 
 Hit the search button
 
-file:///home/n1lby73/Downloads/Telegram%20Desktop/photo_2022-08-20_07-01-04.jpg
-
+![photo_2022-08-20_07-01-04](https://user-images.githubusercontent.com/65239245/185731460-7daa9708-633d-4ec7-80ee-a9d36329e28f.jpg)
 
 
 ### Note
