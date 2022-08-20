@@ -30,10 +30,21 @@ this project has been designed in other to reduce the risk of late shutdown or e
 
 ```
 
-imported a libary that helps us create or turn any of the arduino pins into TX and RX pins
+Imported a libary that helps us create or turn any of the arduino pins into TX and RX pins
 
 ### Reason
-the bluetooth module makes use of RX and TX pin to tranfer and receive data from your mobile device to the arduino board, it a good thing we create a custom RX and TX pin with the help of the library as it is not advisable to make use of arduino default RX and TX pin
-<!-- Due to the fact that 
-the libarary is very useful because with it we don't need to go through the stress of unplugging the tx nd rx pin of the bluetoth module before uploading your sketch. moreover it is not advisable to make use of the default RX and TX pins of the arduino -->
+The bluetooth module makes use of RX and TX pin to tranfer and receive data from your mobile device to the arduino board, it a good thing we create a custom RX and TX pin with the help of the library as it is not advisable to make use of arduino default RX and TX pin
+
+'''
+
+SoftwareSerial customSerial(3,4);
+
+'''
+
+- Defined a variable called customSerial
+- 3 denotes arduino pin 3 as your custom RX pin
+- 4 denotes aruino pin 4 as your custom TX pin
+
+for more documentation on the library check [Arduino official website](https://docs.arduino.cc/learn/built-in-libraries/software-serial)
+
 
