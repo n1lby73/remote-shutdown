@@ -25,6 +25,7 @@ pair the bluetooth device module with your phone
 
 selct device name and connect in switch mode
 
+![switch mode](https://user-images.githubusercontent.com/65239245/185731729-d61ef368-8fec-4693-ae7c-2d5396f9289a.jpg)
 
 
 ### Note
