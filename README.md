@@ -16,5 +16,5 @@ this project has been designed in other to reduce the risk of late shutdown or e
     - If your module makes use of 3.3v for the rs and tx pin, then make use of a voltage divider before powering it up
 ## code explanation
 
-```
+<!-- ``` -->
   
