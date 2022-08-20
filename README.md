@@ -59,7 +59,7 @@ int receivedData = 0;
 
 ```
 void setup() {
-    
+
   pinMode (electricMotor, OUTPUT);
   digitalWrite(electricMotor,LOW);
   Serial.begin(9600);
@@ -67,5 +67,5 @@ void setup() {
 }
 ```
 - Declared my assigned pin for the electric motor as an output pin
-~ Forced my relay / machineries to always be off at start up
+- Forced my relay / machineries to always be off at start up
 - Begin serial monitor with the [baud rate](https://www.geeksforgeeks.org/baud-rate-and-its-importance/) of 9600
