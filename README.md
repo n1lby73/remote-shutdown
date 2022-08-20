@@ -18,8 +18,8 @@ this project has been designed in other to reduce the risk of late shutdown or e
 ## Shematics explanation
 | Arduino pin | use |
 | :----: | :----: |
-| pin 5 | turn a relay on and off |
-| pin 4 | custom TX pin |
 | pin 3 | custom RX pin |
+| pin 4 | custom TX pin |
+| pin 5 | turn a relay on and off |
 ```
   
