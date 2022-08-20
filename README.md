@@ -11,30 +11,31 @@ this project has been designed in other to reduce the risk of late shutdown or e
 
 - EXtract the project and open up the *.ino file with [arduino ide](https://www.arduino.cc/en/software)
 
-Download the updated [android application](https://play.google.com/store/apps/details?id=com.giumig.apps.bluetoothserialmonitor&gl=US) or [IOS application](https://apps.apple.com/us/app/bluetooth-for-arduino/id1505096526) 
 
-Upload and wire your circuit using the schematics below
+- Download the updated [android application](https://play.google.com/store/apps/details?id=com.giumig.apps.bluetoothserialmonitor&gl=US) or [IOS application](https://apps.apple.com/us/app/bluetooth-for-arduino/id1505096526) 
+
+- Upload and wire your circuit using the schematics below
 
 ![schematics](https://user-images.githubusercontent.com/65239245/185728107-887e7711-22ef-400d-806f-d4b48cc23d65.png)
 
-Open up the app and give all requested permission
+- Open up the app and give all requested permission
 
-Hit the search button
+- Hit the search button
 
 ![search button](https://user-images.githubusercontent.com/65239245/185731612-c71a64e4-2d52-4602-a601-2b32297a43c7.jpg)
 
-pair the bluetooth device module with your phone
-    - dfault key is 1234 or 0000
+- Pair the bluetooth device module with your phone
+    - default key is 1234 or 0000
 
-selct device name and connect in switch mode
+- Selct device name and connect in switch mode
 
 ![switch mode](https://user-images.githubusercontent.com/65239245/185731729-d61ef368-8fec-4693-ae7c-2d5396f9289a.jpg)
 
 
-click on the gear icon at the top right corner of the screen and change the parameter sent over bluetooth
+- click on the gear icon at the top right corner of the screen and change the parameter sent over bluetooth
 
-- on = 1
-- off = 0
+    - on = 1
+    - off = 0
 
 ![edit parameters](https://user-images.githubusercontent.com/65239245/185732046-c35bac68-f0d1-488a-ab60-1e8f48005e2e.jpg)
 
