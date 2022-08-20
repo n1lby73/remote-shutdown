@@ -66,6 +66,34 @@ void setup() {
 
 }
 ```
+- Void setup is where you write programs you want to only run once
 - Declared my assigned pin for the electric motor as an output pin
 - Forced my relay / machineries to always be off at start up
-- Begin serial monitor with the [baud rate](https://www.geeksforgeeks.org/baud-rate-and-its-importance/) of 9600
+- Begin serial monitor at the speed [baud rate](https://www.geeksforgeeks.org/baud-rate-and-its-importance/) of 9600
+    - useful for  debugging purpose
+
+```
+void loop(){
+```
+- Progams you want to continue running
+
+```
+ if (customSerial.available()>0){
+    receivedData = customSerial.read();
+  }
+```
+- Check if data has been sent to our module
+- if data has been sent assign it to the variable called received data
+
+```
+  if (receivedData == '0'){
+    digitalWrite(electricMotor,LOW);
+    Serial.println('off');
+    receivedData=0; 
+  }
+  else if (receivedData =='1'){
+    digitalWrite(electricMotor,HIGH);
+    Serial.println('off');
+    receivedData = 0;
+  }
+```
