@@ -37,7 +37,6 @@ The bluetooth module makes use of RX and TX pin to tranfer and receive data from
 
 ```
 SoftwareSerial customSerial(3,4);
-
 ```
 
 - Defined a variable called customSerial
