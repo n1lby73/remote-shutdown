@@ -135,8 +135,8 @@ void loop(){
     - print a message on the serial moinitor that device is on
     - reassign the received value as 0 for safety reasons
 
-## Support
-- Create an issue [here](https://github.com/n1lby73/remote-shutdown/issues)
+## Support and bug reporting
+- Report found bugs [here](https://github.com/n1lby73/remote-shutdown/issues)
 - Contributions, issues, and feature requests are welcome!
 - Feel free to make PR
 - Give a ★ if you like this project!
