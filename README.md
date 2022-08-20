@@ -6,9 +6,14 @@ control actuation of electro-pneumatics cylinderand relays
 
 this project has been designed in other to reduce the risk of late shutdown or easily carry out task from the office using bluetooth technology and micro controllers
 
-## wiring schematics
+## Usage
+
+Download the updated [android application](https://play.google.com/store/apps/details?id=com.giumig.apps.bluetoothserialmonitor&gl=US) or [IOS application](https://apps.apple.com/us/app/bluetooth-for-arduino/id1505096526) 
+
+Upload and wire your circuit using the schematics below
 
 ![schematics](https://user-images.githubusercontent.com/65239245/185728107-887e7711-22ef-400d-806f-d4b48cc23d65.png)
+
 
 ### Note
 - Always check the datasheet for the required voltage on the rx and tx pin of the bluethoth module in other to avoid frying up the chip 
@@ -110,3 +115,5 @@ void loop(){
     - reassign the received value as 0 for safety reasons
 
 ## Usage
+
+Download the updated [android application](https://play.google.com/store/apps/details?id=com.giumig.apps.bluetoothserialmonitor&gl=US) or [IOS application](https://apps.apple.com/us/app/bluetooth-for-arduino/id1505096526) 
