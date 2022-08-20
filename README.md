@@ -20,6 +20,9 @@ Hit the search button
 
 ![search button](https://user-images.githubusercontent.com/65239245/185731612-c71a64e4-2d52-4602-a601-2b32297a43c7.jpg)
 
+pair the bluetooth device module with your phone
+    - dfault key is 1234 or 0000
+
 
 
 ### Note
