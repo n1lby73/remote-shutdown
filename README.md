@@ -27,7 +27,7 @@ this project has been designed in other to reduce the risk of late shutdown or e
 - Pair the bluetooth device module with your phone
     - default key is 1234 or 0000
 
-- Selct device name and connect in switch mode
+- Select device name and connect in switch mode
 
 ![switch mode](https://user-images.githubusercontent.com/65239245/185731729-d61ef368-8fec-4693-ae7c-2d5396f9289a.jpg)
 
@@ -41,7 +41,7 @@ this project has been designed in other to reduce the risk of late shutdown or e
 
 ### Note
 
-- Always check the datasheet for the required voltage on the rx and tx pin of the bluethoth module in other to avoid frying up the chip 
+- Always check the datasheet for the required voltage on the rx and tx pin of the bluetooth module in other to avoid frying up the chip 
 
 - If your module makes use of 3.3v for the RS and TX pin, then make use of a voltage divider before powering it up
 
