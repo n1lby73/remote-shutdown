@@ -17,12 +17,12 @@ void loop() {
   }
   if (receivedData == '0'){
     digitalWrite(electricMotor,LOW);
-    Serial.println('off');
+    Serial.println('machinery turned off');
     receivedData=0; 
   }
   else if (receivedData =='1'){
     digitalWrite(electricMotor,HIGH);
-    Serial.println('off');
+    Serial.println('machinery turned on');
     receivedData = 0;
   }
 }

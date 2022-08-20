@@ -43,7 +43,7 @@ SoftwareSerial customSerial(3,4);
 - 3 denotes arduino pin 3 as your custom RX pin
 - 4 denotes aruino pin 4 as your custom TX pin
 
-For more documentation on the library check [Arduino official website](https://docs.arduino.cc/learn/built-in-libraries/software-serial)
+    - For more documentation on the library check [Arduino official website](https://docs.arduino.cc/learn/built-in-libraries/software-serial)
 
 ```
 
@@ -82,18 +82,31 @@ void loop(){
     receivedData = customSerial.read();
   }
 ```
-- Check if data has been sent to our module
+- Check if data has been sent to your module
 - if data has been sent assign it to the variable called received data
 
 ```
   if (receivedData == '0'){
     digitalWrite(electricMotor,LOW);
-    Serial.println('off');
+    Serial.println('machinery turned off');
     receivedData=0; 
   }
   else if (receivedData =='1'){
     digitalWrite(electricMotor,HIGH);
-    Serial.println('off');
+    Serial.println('machinery turned on');
     receivedData = 0;
   }
 ```
+
+#### Validating process
+
+- If data received is 0
+    - Turn off machineries
+    - print a message on the serial moinitor that device is off
+    - reassign the received value as 0
+
+- If data received is 1
+    - Turn on machineries
+    - print a message on the serial moinitor that device is on
+    - reassign the received value as 0
+
