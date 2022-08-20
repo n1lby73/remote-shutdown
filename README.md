@@ -84,7 +84,7 @@ int electricMotor = 5;
 int receivedData = 0;
 ```
 
-- Declared a variable to store the data received from the bluethoth module
+- Declared a variable to store the data received from the bluetooth module
 
 ```
 void setup() {
