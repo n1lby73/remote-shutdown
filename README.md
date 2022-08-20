@@ -11,9 +11,9 @@ this project has been designed in other to reduce the risk of late shutdown or e
 ![schematics](https://user-images.githubusercontent.com/65239245/185728107-887e7711-22ef-400d-806f-d4b48cc23d65.png)
 
 ### Note
-    - Always check the datasheet for the required voltage on the rx and tx pin of the bluethoth module in other to avoid frying up the chip 
+- Always check the datasheet for the required voltage on the rx and tx pin of the bluethoth module in other to avoid frying up the chip 
 
-    - If your module makes use of 3.3v for the rs and tx pin, then make use of a voltage divider before powering it up
+- If your module makes use of 3.3v for the rs and tx pin, then make use of a voltage divider before powering it up
 ## code explanation
 
 <!-- ``` -->
