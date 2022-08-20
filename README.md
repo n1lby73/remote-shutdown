@@ -23,6 +23,8 @@ Hit the search button
 pair the bluetooth device module with your phone
     - dfault key is 1234 or 0000
 
+selct device name and connect in switch mode
+
 
 
 ### Note
