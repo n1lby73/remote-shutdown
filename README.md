@@ -139,6 +139,15 @@ void loop(){
     - print a message on the serial moinitor that device is on
     - reassign the received value as 0 for safety reasons
 
+
+## Buy components
+- Arduino nano
+    -[Amazon](https://www.amazon.com/ELEGOO-Arduino-ATmega328P-Without-Compatible/dp/B0713XK923/ref=mp_s_a_1_1_sspa?keywords=arduino%2Bnano&qid=1660984316&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyTFVaM1UzVVhKSlZJJmVuY3J5cHRlZElkPUEwOTY5OTA5MTRUNTBHVkxaV09NWSZlbmNyeXB0ZWRBZElkPUEwNjY5Mjg5MTdYSUo3UVNSUDZaVSZ3aWRnZXROYW1lPXNwX3Bob25lX3NlYXJjaF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1)
+
+    -[Aliexpress](https://a.aliexpress.com/_mKk5wJ2)
+
+    -[Ebay](https://www.ebay.com/itm/182634516983?hash=item2a85dd91f7:g:4W4AAOSwtxxbYqzY&amdata=enc%3AAQAHAAAA4OPlNeng3NStt9velaSM2J2rL0Yhu6E%2BwFqJkIrdtxhR6vS6KCVkXhJ%2BoijtP9AZxucgIMTsSjtvqbIiJZVs%2BQX2Jwp8yaZxAem7vri92TChlf3oj8wnKAWdvxiDwfK%2FMgLPNK3F96VgHygfvyou5MI%2BzIj8YkEtW%2BVmjPPSAS0EjWtrtKikIosOvFq7jD2qICTMy%2Fp%2F%2BBiAzF9uu7%2FIc1hszFzHJf2Aj%2Br0tD3gbKTTbdJLC%2BadScmKWf%2FeOrmgRxhha%2BmvoFUCBb8OH%2F8KDvAhlK0hZVStgvOWpDnAw1uZ%7Ctkp%3ABFBM1s-zptdg)
+    
 ## Support and bug reporting
 - Report found bugs [here](https://github.com/n1lby73/remote-shutdown/issues)
 - Contributions, issues, and feature requests are welcome!
