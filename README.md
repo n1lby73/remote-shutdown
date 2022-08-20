@@ -2,14 +2,14 @@
 
 Quickly shutdown, control machineries from a distance
 
-control actuation of electro-pneumatics cylinderand relays 
+control actuation of electro-pneumatics cylinder and relays 
 
 this project has been designed in other to reduce the risk of late shutdown or easily carry out task from the office using bluetooth technology and micro controllers
 
 ## Usage
 - Download the project [zip](https://github.com/n1lby73/remote-shutdown/archive/refs/heads/main.zip)
 
-- EXtract the project and open up the *.ino file with [arduino ide](https://www.arduino.cc/en/software)
+- Extract the project and open up the *.ino file with [arduino ide](https://www.arduino.cc/en/software)
 
 
 - Download the updated [android application](https://play.google.com/store/apps/details?id=com.giumig.apps.bluetoothserialmonitor&gl=US) or [IOS application](https://apps.apple.com/us/app/bluetooth-for-arduino/id1505096526) 
@@ -24,7 +24,7 @@ this project has been designed in other to reduce the risk of late shutdown or e
 
 ![search button](https://user-images.githubusercontent.com/65239245/185731612-c71a64e4-2d52-4602-a601-2b32297a43c7.jpg)
 
-- Pair the bluetooth device module with your phone
+- Pair the bluetooth device module with your device
     - default key is 1234 or 0000
 
 - Select device name and connect in switch mode
@@ -60,10 +60,10 @@ this project has been designed in other to reduce the risk of late shutdown or e
 
 ```
 
-Imported a libary that helps us create or turn any of the arduino pins into TX and RX pins
+Imported a library that helps us create or turn any of the arduino pins into TX and RX pins
 
 ### Reason
-The bluetooth module makes use of RX and TX pin to tranfer and receive data from your mobile device to the arduino board, It's a good thing we create a custom RX and TX pin with the help of the library as it is not advisable to make use of arduino default RX and TX pin
+The bluetooth module makes use of RX and TX pin to transfer and receive data from your mobile device to the arduino board, It's a good thing we create a custom RX and TX pin with the help of the library as it is not advisable to make use of arduino default RX and TX pin
 
 ```
 SoftwareSerial customSerial(3,4);
@@ -104,7 +104,7 @@ void setup() {
 ```
 void loop(){
 ```
-- Progams you want to continue running
+- Programs you want to continue running
 
 ```
  if (customSerial.available()>0){
@@ -148,7 +148,7 @@ void loop(){
 
     - [Ebay](https://www.ebay.com/itm/182634516983?hash=item2a85dd91f7:g:4W4AAOSwtxxbYqzY&amdata=enc%3AAQAHAAAA4OPlNeng3NStt9velaSM2J2rL0Yhu6E%2BwFqJkIrdtxhR6vS6KCVkXhJ%2BoijtP9AZxucgIMTsSjtvqbIiJZVs%2BQX2Jwp8yaZxAem7vri92TChlf3oj8wnKAWdvxiDwfK%2FMgLPNK3F96VgHygfvyou5MI%2BzIj8YkEtW%2BVmjPPSAS0EjWtrtKikIosOvFq7jD2qICTMy%2Fp%2F%2BBiAzF9uu7%2FIc1hszFzHJf2Aj%2Br0tD3gbKTTbdJLC%2BadScmKWf%2FeOrmgRxhha%2BmvoFUCBb8OH%2F8KDvAhlK0hZVStgvOWpDnAw1uZ%7Ctkp%3ABFBM1s-zptdg)
 
-- Hc-05 (bluetoth module)
+- Hc-05 (bluetooth module)
     - [Amazon](https://www.amazon.com/dp/B01G9KSAF6/ref=cm_sw_r_cp_awdb_imm_JJRK65V810BGCDSSYA6A?_encoding=UTF8&psc=1)
 
     - [Aliexpress](https://a.aliexpress.com/_msG9cIC)
