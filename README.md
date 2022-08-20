@@ -15,11 +15,17 @@ this project has been designed in other to reduce the risk of late shutdown or e
 
 - If your module makes use of 3.3v for the RS and TX pin, then make use of a voltage divider before powering it up
 
-## Shematics explanation
+## pin use
 | Arduino pin | use |
 | :----: | :----: |
 | pin 3 | custom RX pin |
 | pin 4 | custom TX pin |
 | pin 5 | turn a relay on and off |
+
+## code guide
+
 ```
-  
+#include <SoftwareSerial.h>
+
+SoftwareSerial customSerial(3,4);
+```
