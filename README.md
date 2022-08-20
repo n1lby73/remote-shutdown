@@ -134,3 +134,13 @@ void loop(){
     - Turn on machineries
     - print a message on the serial moinitor that device is on
     - reassign the received value as 0 for safety reasons
+
+## Support
+- Create an issue [here](https://github.com/n1lby73/remote-shutdown/issues)
+- Contributions, issues, and feature requests are welcome!
+- Feel free to make PR
+- Give a ★ if you like this project!
+
+## License
+
+[GNU V3](https://github.com/n1lby73/remote-shutdown/blob/main/LICENSE)
