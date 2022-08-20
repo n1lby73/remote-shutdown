@@ -20,7 +20,7 @@ this project has been designed in other to reduce the risk of late shutdown or e
 | :----: | :----: |
 | pin 3 | custom RX pin |
 | pin 4 | custom TX pin |
-| pin 5 | turn a relay on and off |
+| pin 5 | turn relay on and off |
 
 ## code guide
 
@@ -56,3 +56,15 @@ int receivedData = 0;
 ```
 
 - Declared a variable to store the data received from the bluethoth module
+
+```
+void setup() {
+  pinMode (electricMotor, OUTPUT);
+  digitalWrite(electricMotor,LOW);
+  Serial.begin(9600);
+
+}
+```
+- Declared my assigned pin for the electric motor as an output pin
+~ Forced my relay / machineries to always be off at start up
+- Begin serial monitor with the [baud rate]{https://www.geeksforgeeks.org/baud-rate-and-its-importance/} of 9600
