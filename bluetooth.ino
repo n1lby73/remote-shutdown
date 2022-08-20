@@ -3,7 +3,7 @@
 SoftwareSerial customSerial(3,4);
 
 int electricMotor = 5;
-int state = 0;
+int receivedData = 0;
 void setup() {
   pinMode (electricMotor, OUTPUT);
   digitalWrite(electricMotor,LOW);
@@ -13,16 +13,16 @@ void setup() {
 
 void loop() {
   if (customSerial.available()>0){
-    state = customSerial.read();
+    receivedData = customSerial.read();
   }
-  if (state == '0'){
+  if (receivedData == '0'){
     digitalWrite(electricMotor,LOW);
     Serial.println('off');
-    state=0; 
+    receivedData=0; 
   }
-  else if (state =='1'){
+  else if (receivedData =='1'){
     digitalWrite(electricMotor,HIGH);
     Serial.println('off');
-    state = 0;
+    receivedData = 0;
   }
 }

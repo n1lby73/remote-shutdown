@@ -1,10 +1,10 @@
 # remote-shutdown
 
-quickly shutdown, control machineries from a distance
+Quickly shutdown, control machineries from a distance
 
 control actuation of electro-pneumatics cylinderand relays 
 
-this project has been designed in other to reduce the risk of late shutdown or easily carry out task from the office.
+this project has been designed in other to reduce the risk of late shutdown or easily carry out task from the office using bluetooth technology and micro controllers
 
 ## wiring schematics
 
@@ -33,7 +33,7 @@ this project has been designed in other to reduce the risk of late shutdown or e
 Imported a libary that helps us create or turn any of the arduino pins into TX and RX pins
 
 ### Reason
-The bluetooth module makes use of RX and TX pin to tranfer and receive data from your mobile device to the arduino board, it a good thing we create a custom RX and TX pin with the help of the library as it is not advisable to make use of arduino default RX and TX pin
+The bluetooth module makes use of RX and TX pin to tranfer and receive data from your mobile device to the arduino board, It's a good thing we create a custom RX and TX pin with the help of the library as it is not advisable to make use of arduino default RX and TX pin
 
 ```
 SoftwareSerial customSerial(3,4);
@@ -43,6 +43,16 @@ SoftwareSerial customSerial(3,4);
 - 3 denotes arduino pin 3 as your custom RX pin
 - 4 denotes aruino pin 4 as your custom TX pin
 
-for more documentation on the library check [Arduino official website](https://docs.arduino.cc/learn/built-in-libraries/software-serial)
+For more documentation on the library check [Arduino official website](https://docs.arduino.cc/learn/built-in-libraries/software-serial)
 
+```
 
+int electricMotor = 5;
+```
+- Denotes arduino pin (5) used to control relay where machineries are connected to
+
+```
+int receivedData = 0;
+'''
+
+- Declared a variable to store the data received from the bluethoth
