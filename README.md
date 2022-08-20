@@ -46,7 +46,6 @@ SoftwareSerial customSerial(3,4);
     - For more documentation on the library check [Arduino official website](https://docs.arduino.cc/learn/built-in-libraries/software-serial)
 
 ```
-
 int electricMotor = 5;
 ```
 - Denotes arduino pin (5) used to control relay where machineries are connected to
@@ -103,10 +102,11 @@ void loop(){
 - If data received is 0
     - Turn off machineries
     - print a message on the serial moinitor that device is off
-    - reassign the received value as 0
+    - reassign the received value as 0 for safety reasons
 
 - If data received is 1
     - Turn on machineries
     - print a message on the serial moinitor that device is on
-    - reassign the received value as 0
+    - reassign the received value as 0 for safety reasons
 
+## Usage
