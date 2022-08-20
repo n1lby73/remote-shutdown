@@ -1,6 +1,16 @@
 # remote-shutdown
-quickly shutdown, control machineries from a distance in the industries in other to avoid fatal accident
 
-After visiting some industries and analyzing some common accident that happens in the industries, I have come to find out that 70% of the accident were caused by supervisor or workers underestimating the speed at which a process is to be done and thus feel relaxed only for them to arrive at the machine late before hitting the emergency stop button.
+quickly shutdown, control machineries from a distance
 
-![image](https://user-images.githubusercontent.com/65239245/185727684-9333ccc6-be3f-4bb9-8ac7-6dd53ff264da.png)
+control actuation of electro-pneumatics cylinderand relays 
+
+this project has been designed in other to reduce the risk of late shutdown or easily carry out task from the office.
+
+##wiring schematics
+
+![schematics](https://user-images.githubusercontent.com/65239245/185728107-887e7711-22ef-400d-806f-d4b48cc23d65.png)
+
+##code explanation
+
+```
+  
