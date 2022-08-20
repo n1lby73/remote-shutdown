@@ -14,6 +14,13 @@ Upload and wire your circuit using the schematics below
 
 ![schematics](https://user-images.githubusercontent.com/65239245/185728107-887e7711-22ef-400d-806f-d4b48cc23d65.png)
 
+Open up the app and give all requested permission
+
+Hit the search button
+
+file:///home/n1lby73/Downloads/Telegram%20Desktop/photo_2022-08-20_07-01-04.jpg
+
+
 
 ### Note
 - Always check the datasheet for the required voltage on the rx and tx pin of the bluethoth module in other to avoid frying up the chip 
@@ -113,7 +120,3 @@ void loop(){
     - Turn on machineries
     - print a message on the serial moinitor that device is on
     - reassign the received value as 0 for safety reasons
-
-## Usage
-
-Download the updated [android application](https://play.google.com/store/apps/details?id=com.giumig.apps.bluetoothserialmonitor&gl=US) or [IOS application](https://apps.apple.com/us/app/bluetooth-for-arduino/id1505096526) 
