@@ -7,6 +7,9 @@ control actuation of electro-pneumatics cylinderand relays
 this project has been designed in other to reduce the risk of late shutdown or easily carry out task from the office using bluetooth technology and micro controllers
 
 ## Usage
+- Download the project [zip](https://github.com/n1lby73/remote-shutdown/archive/refs/heads/main.zip)
+
+- EXtract the project and open up the *.ino file with [arduino ide](https://www.arduino.cc/en/software)
 
 Download the updated [android application](https://play.google.com/store/apps/details?id=com.giumig.apps.bluetoothserialmonitor&gl=US) or [IOS application](https://apps.apple.com/us/app/bluetooth-for-arduino/id1505096526) 
 
