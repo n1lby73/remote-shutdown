@@ -10,6 +10,7 @@ this project has been designed in other to reduce the risk of late shutdown or e
 
 | Name | Qty |
 | :---: | :---: |
+| Arduino nano | 1 |
 | Hc-05 | 1 |
 | 5v dc power relay or solid state relay | 1 |
 
