@@ -8,8 +8,11 @@ this project has been designed in other to reduce the risk of late shutdown or e
 
 ## Components needed
 
-| Name | qty |
+| Name | Qty |
 | :---: | :---: |
+| Hc-05 | 1 |
+| 5v dc power relay / solid state relay | varies(depends on need) |
+
 
 ## Usage
 - Download the project [zip](https://github.com/n1lby73/remote-shutdown/archive/refs/heads/main.zip)
