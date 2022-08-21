@@ -26,7 +26,9 @@ this project has been designed in other to reduce the risk of late shutdown or e
 ## Usage
 - Download the project [zip](https://github.com/n1lby73/remote-shutdown/archive/refs/heads/main.zip)
 
-- Extract the project and open up the *.ino file with [arduino ide](https://www.arduino.cc/en/software)
+- Extract the project and save it in a folder with any name of your choice 
+
+- Open up the *.ino file with [arduino ide](https://www.arduino.cc/en/software)
 
 
 - Download the updated [android application](https://play.google.com/store/apps/details?id=com.giumig.apps.bluetoothserialmonitor&gl=US) or [IOS application](https://apps.apple.com/us/app/bluetooth-for-arduino/id1505096526) 
