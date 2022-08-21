@@ -6,6 +6,11 @@ control actuation of electro-pneumatics cylinder and relays
 
 this project has been designed in other to reduce the risk of late shutdown or easily carry out task from the office using bluetooth technology and micro controllers
 
+## Components needed
+
+| Name | qty |
+| :---: | :---: |
+
 ## Usage
 - Download the project [zip](https://github.com/n1lby73/remote-shutdown/archive/refs/heads/main.zip)
 
