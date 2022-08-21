@@ -156,7 +156,7 @@ void loop(){
 
 ## Buy components[^1]
 
-[^1]; None of the aforementioned links are affiliate links 
+[^1]: None of the aforementioned links are affiliate links 
 
 | Arduino nano | HC-05 |
 | :---: | :---: |
