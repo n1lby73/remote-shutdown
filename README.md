@@ -11,7 +11,15 @@ this project has been designed in other to reduce the risk of late shutdown or e
 | Name | Qty |
 | :---: | :---: |
 | Hc-05 | 1 |
-| 5v dc power relay / solid state relay | varies(depends on need) |
+| 5v dc power relay or solid state relay | 1 |
+
+### Note
+
+- The amount of relays needed solely depends on the number of items you want to control
+
+- Always check the datasheet for the required voltage on the rx and tx pin of the bluetooth module in other to avoid frying up the chip 
+
+- If your module makes use of 3.3v for the RS and TX pin, then make use of a voltage divider before powering it up
 
 
 ## Usage
@@ -47,11 +55,6 @@ this project has been designed in other to reduce the risk of late shutdown or e
 
 ![edit parameters](https://user-images.githubusercontent.com/65239245/185732046-c35bac68-f0d1-488a-ab60-1e8f48005e2e.jpg)
 
-### Note
-
-- Always check the datasheet for the required voltage on the rx and tx pin of the bluetooth module in other to avoid frying up the chip 
-
-- If your module makes use of 3.3v for the RS and TX pin, then make use of a voltage divider before powering it up
 
 ## pin use
 | Arduino pin | use |
